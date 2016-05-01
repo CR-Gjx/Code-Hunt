@@ -1,1 +1,10 @@
-
+using System;
+public class Program {
+    public static int Puzzle(int[] v) {
+                    int sum = 0;
+        foreach (int e in v) {
+            sum += e;
+        } 
+            return sum;
+    }
+}
